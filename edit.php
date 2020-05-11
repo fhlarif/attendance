@@ -51,7 +51,8 @@
             <input type="email" class="form-control"value=<?php echo $attendee['email']  ?> id="email" name="email" aria-describedby="emailHelp">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
-        <button type="submit" class="btn btn-success btn-block" name="submit">Save Changes</button>   
+        <button type="submit" class="btn btn-success" name="submit">Save Changes</button>   
+        <a href="viewrecords.php" class="btn btn-info">Back to list</a>   
     </form>
 
     <?php } ?>
