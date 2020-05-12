@@ -1,8 +1,16 @@
 <?php   
-    $host='127.0.0.1';
-    $db='attendance_db';
-    $user='root';
-    $pass='';
+    //development
+    // $host='127.0.0.1';
+    // $db='attendance_db';
+    // $user='root';
+    // $pass='';
+    // $charset='utf8mb4';
+
+    //production
+    $host='sql12.freemysqlhosting.net';
+    $db='sql12339559';
+    $user='sql12339559';
+    $pass='EpC3NH3zru';
     $charset='utf8mb4';
 
     $dsn="mysql:host=$host; dbname=$db; charset=$charset";
